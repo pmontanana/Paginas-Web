@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse; width: 600px;
+}
+
+table th, table td{
+    border: 1px solid #ff0000; padding: 0.3em;
+    text-align: center; height: 3em;
+}
+
+table th{
+    background: #cecef6; font-family: "comic sans ms";
+}
+
+table tr{
+    background: #F5F6CE;
+}
+
+table tr:hover{
+    background: #f5a9f2; font-size: 15px;
+}
