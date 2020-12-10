@@ -15,6 +15,6 @@ table tr{
     background: #F5F6CE;
 }
 
-table tr:hover{
+table td:hover{
     background: #f5a9f2; font-size: 15px;
 }
