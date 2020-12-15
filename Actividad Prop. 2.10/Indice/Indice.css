@@ -13,3 +13,7 @@ ul{
 p{
     padding: 10px; margin-right: 30em; background-color: plum; border-style: solid; border-color: brown; border-width: 5px;
 }
+
+img{
+    float: right; margin-right: 50px; width: 400px; height: 300px;
+}
