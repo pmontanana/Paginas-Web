@@ -3,10 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Actividad2.7.2</title>
 </head>
-<body>
+<body style="background-color:aqua;">
     
+<form action="" method="GET">
+    <h1 style="text-align:center; color: red;">Datos de alumno-continuacion</h1>
+    <fieldset style="background-color: darkred; text-align: center;">
+        <legend style="color: fuchsia; font-size: large;">Teclea mas datos</legend>
+
+        <label style="color: gold;" for="borndate">Dia de nacimiento:</label>
+        <input type="text" name="borndate" maxlength="2">
+        
+        <label style="color: gold;" for="born-date">Mes de nacimiento:</label>
+        <select name="Mes de nacimiento" id="">
+            
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+
+        </select>
+        
+        <label style="color: gold;" for="born_date">Año de nacimiento:</label>
+        <input type="text" name="born_date" maxlength="4"><br>
+
+        <label style="color: gold;" for="course">Selecciona el curso:</label>
+        <select name="Cursos" id="">
+
+            <option value="1ºSMR">1ºSMR</option>
+            <option value="2ºSMR">2ºSMR</option>
+            <option value="1ºDAM">1ºDAM</option>
+            <option value="2ºDAM">2ºDAM</option>
+            <option value="1ºASIR">1ºASIR</option>
+            <option value="2ºASIR">2ºASIR</option>
+
+        </select>
+
+        <hr>
+
+        <label style="color: gold; max" for="subjects">Elige 3 materias optativas:</label>
+            
+            <input type="checkbox" name="Inglés">
+            <label style="color: #d2ff4d; max" for="subjects">Inglés</label>
+            <input type="checkbox" name="Francés">
+            <label style="color: #d2ff4d; max" for="subjects">Francés</label>
+            <input type="checkbox" name="E.F">
+            <label style="color: #d2ff4d; max" for="subjects">E.F</label>
+            <input type="checkbox" name="Astronomía">
+            <label style="color: #d2ff4d; max" for="subjects">Astronomía</label>
+            <input type="checkbox" name="Historia">
+            <label style="color: #d2ff4d; max" for="subjects">Historia</label>
+            <input type="checkbox" name="Páginas Web">
+            <label style="color: #d2ff4d; max" for="subjects">Páginas Web</label>
+            <input type="checkbox" name="Redes">
+            <label style="color: #d2ff4d; max" for="subjects">Redes</label>
+
+        <hr>
+
+        <label for="shift" style="color: gold;">Selecciona turno:</label>
+        <input type="radio" name="Diurno">
+        <label for="shift">Diurno</label>
+        <input type="radio" name="Vespertino">
+        <label for="shift">Vespertino</label>
+
+
+    </fieldset>
+
+
+
+</form>
 
     
 </body>
