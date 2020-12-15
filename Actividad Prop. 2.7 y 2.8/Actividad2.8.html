@@ -3,12 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Actividad2.8</title>
     
 </head>
-<body>
+<body style="background-color: deeppink;">
     
-    <input type="button" type="url" >
+    <form action="" method="GET">
+        <h1 style="text-align: center; color: darkcyan;">Datos de empleado</h1>
+        <fieldset style="background-color: darkred; text-align: center;">
+            <legend style="font-size: large; color: darkturquoise;">Teclea datos de empleado</legend>
+
+            <label for="employeedata" style="color: aquamarine;">Nombre de empleado:</label>
+            <input type="text" name="employeedata" title="Nombre">
+
+            <br><br>
+
+            <label for="employeedata" style="color: aquamarine;">Fecha de nacimiento:</label>
+            <input type="date" name="employeedata" title="Fecha de nacimiento">
+
+            <br><br>
+
+            <label for="employeedata" style="color: aquamarine;">Salario (entre 900 y 2000):</label>
+            <input type="number" min="900" max="2000" name="employeedata" title="Salario">
+
+            <br><br>
+
+            <label for="employeedata" style="color: aquamarine;">Email:</label>
+            <input type="email" name="employeedata" title="Correo electronico">
+
+            <br><br>
+
+            <label for="employeedata" style="color: aquamarine;">Mes de alta</label>
+            <input type="month" name="employeedata" title="Mes de alta">
+
+            <hr>
+
+            <input type="submit" name="Enviar datos" value="Enviar datos">
+            <input type="button" value="Formulario 1" onclick="window.open('Actividad2.7.html')">
+            <input type="button" value="Formulario 2" onclick="window.open('Actividad2.7.2.html')">
+            <input type="reset" value="Limpiar datos">
+
+
+        </fieldset>
+
+
+    </form>
+    
 
 </body>
 </html>
